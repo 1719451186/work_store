@@ -8,3 +8,6 @@ class TestCircle(unittest.TestCase):
         length = my_circle.getlength()
         self.assertEqual(length, 12.56)
 
+    def test_get_area(self):
+        pass
+
